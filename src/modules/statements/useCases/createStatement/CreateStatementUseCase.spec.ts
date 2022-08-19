@@ -1,3 +1,5 @@
+import "dotenv/config"
+
 import { InMemoryUsersRepository } from "../../../users/repositories/in-memory/InMemoryUsersRepository"
 import { OperationType } from "../../entities/Statement"
 import { InMemoryStatementsRepository } from "../../repositories/in-memory/InMemoryStatementsRepository"
